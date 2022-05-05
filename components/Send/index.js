@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import send from "../../public/assets/img/support.svg";
 
 const Send = () => {
   return (
@@ -19,7 +20,7 @@ const Send = () => {
           </form>
         </div>
         <div className='send__img'>
-          <Image src='' alt='' style={{ width: "100px", objectFit: "cover" }} />
+          <Image src={send} alt='' />
         </div>
       </div>
     </section>
