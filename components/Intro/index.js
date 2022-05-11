@@ -1,12 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import about from "../../public/assets/img/intro-img.svg";
+import bg from '../../public/assets/img/intro-bg.png'
 const Intro = () => {
   return (
-    <section className='home' id='home'>
+    <section className='home' id='home' style={{backgroundImage: `url(http://vinorsoft.com/img/intro-bg.png)`}}>
       <div className='home__container bd-container bd-grid'>
         <div className='home__img'>
-          <Image src={about} alt='' style={{ width: "200px" }} />
+          <Image src={about} alt='' />
         </div>
 
         <div className='home__data'>
@@ -16,7 +17,7 @@ const Intro = () => {
           <a href='#about' className='home__button active'>
             Về chúng tôi
           </a>
-          <a href='#' className='home__button'>
+          <a href='#' className='home__button' style={{marginLeft: 10}}>
             Dịch vụ
           </a>
         </div>

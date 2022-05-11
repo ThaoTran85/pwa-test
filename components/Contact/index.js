@@ -19,11 +19,11 @@ const Contact = () => {
           </div>
           <div className='contact__info'>
             <ion-icon name='mail-outline' className='contact__icon'></ion-icon>
-            <p>support@vinorsoft.com</p>
+            <p>Email:support@vinorsoft.com</p>
           </div>
           <div className='contact__info'>
             <ion-icon name='call-outline' className='contact__icon'></ion-icon>
-            <p>(028) 62715899</p>
+            <p>Phone: (028) 62715899</p>
           </div>
         </div>
         <div className='contact__form'>

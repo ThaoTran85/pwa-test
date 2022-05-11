@@ -11,17 +11,96 @@ const Teams = () => {
       </p>
       <div className='teams__container bd-grid'>
         <div className='teams__data'>
+          <div className="teams__image">
           {/* <Image src='' alt='' /> */}
-          <h3 className='teams__title'>thẩm định giá</h3>
+          </div>
+          <div className="teams__info">
+          <h3>Cù chung</h3>
+          <p>Giám đốc</p>
+          <div className="teams__socials">
+            <a>Facebook</a>
+            <a>Twitter</a>
+            <a>Gmail</a>
+            <a>Linkedin</a>
+          </div>
+          </div>
         </div>
         <div className='teams__data'>
+          <div className="teams__image">
           {/* <Image src='' alt='' /> */}
-          <h3 className='teams__title'>thẩm định giá</h3>
+          </div>
+          <div className="teams__info">
+          <h3>Cù chung</h3>
+          <p>Giám đốc</p>
+          <div className="teams__socials">
+            <a>Facebook</a>
+            <a>Twitter</a>
+            <a>Gmail</a>
+            <a>Linkedin</a>
+          </div>
+          </div>
         </div>
         <div className='teams__data'>
+          <div className="teams__image">
           {/* <Image src='' alt='' /> */}
-          <h3 className='teams__title'>thẩm định giá</h3>
+          </div>
+          <div className="teams__info">
+          <h3>Cù chung</h3>
+          <p>Giám đốc</p>
+          <div className="teams__socials">
+            <a>Facebook</a>
+            <a>Twitter</a>
+            <a>Gmail</a>
+            <a>Linkedin</a>
+          </div>
+          </div>
         </div>
+        <div className='teams__data'>
+          <div className="teams__image">
+          {/* <Image src='' alt='' /> */}
+          </div>
+          <div className="teams__info">
+          <h3>Cù chung</h3>
+          <p>Giám đốc</p>
+          <div className="teams__socials">
+            <a>Facebook</a>
+            <a>Twitter</a>
+            <a>Gmail</a>
+            <a>Linkedin</a>
+          </div>
+          </div>
+        </div>
+        <div className='teams__data'>
+          <div className="teams__image">
+          {/* <Image src='' alt='' /> */}
+          </div>
+          <div className="teams__info">
+          <h3>Cù chung</h3>
+          <p>Giám đốc</p>
+          <div className="teams__socials">
+            <a>Facebook</a>
+            <a>Twitter</a>
+            <a>Gmail</a>
+            <a>Linkedin</a>
+          </div>
+          </div>
+        </div>
+        <div className='teams__data'>
+          <div className="teams__image">
+          {/* <Image src='' alt='' /> */}
+          </div>
+          <div className="teams__info">
+          <h3>Cù chung</h3>
+          <p>Giám đốc</p>
+          <div className="teams__socials">
+            <a>Facebook</a>
+            <a>Twitter</a>
+            <a>Gmail</a>
+            <a>Linkedin</a>
+          </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );

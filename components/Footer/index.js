@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className='footer section'>
-      <div className='footer__container bd-grid bd-container'>
+    <footer className='footer'>
+      <div className='footer__container bd-container'>
         <div className='footer__content'>
           <h2 className='footer__logo'>vinorsoft</h2>
           <p className='footer__description'>
@@ -71,13 +71,15 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className='footer__copy'>
-        © Copyright
-        <span>VINORSOFT</span>. All Rights Reserved
-      </p>
-      <p className='footer__design'>
-        Designed by <a href='#home'>VINORSOFT</a>
-      </p>
+      <div className='footer__text'>
+        <p className='footer__copy'>
+          © Copyright
+          <span>VINORSOFT</span>. All Rights Reserved
+        </p>
+        <p className='footer__design'>
+          Designed by <a href='#home'>VINORSOFT</a>
+        </p>
+      </div>
     </footer>
   );
 };

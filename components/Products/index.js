@@ -14,11 +14,10 @@ const Products = () => {
           <div className='product__img'>
             <ion-icon name='card'></ion-icon>
           </div>
-
-          <h3 className='products__title'>PHẦN MỀM TRƯNG BÀY KIOSK</h3>
-          <p className='products__category'>
-            Các giải pháp trưng bày kiosk, cung cấp phần mềm và phần cứng
-          </p>
+          <div className='products__info'>
+            <h3>PHẦN MỀM TRƯNG BÀY KIOSK</h3>
+            <p>Các giải pháp trưng bày kiosk, cung cấp phần mềm và phần cứng</p>
+          </div>
         </div>
         <div className='products__content'>
           <div className='product__img'>

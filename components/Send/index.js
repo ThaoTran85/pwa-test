@@ -13,7 +13,7 @@ const Send = () => {
             marketing mới từ chúng tôi!
           </p>
           <form>
-            <div className='send__diection'>
+            <div className='send__form'>
               <input className='send__input' />
               <button>Subscribe</button>
             </div>

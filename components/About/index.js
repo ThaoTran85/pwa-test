@@ -8,7 +8,8 @@ const About = () => {
   return (
     <section className='about section bd-container' id='about'>
       <h2 className='section__title'>Về chúng tôi</h2>
-      <p className='section-description'>CÔNG TY CỔ PHẦN CÔNG NGHỆ VINORSOFT</p>
+      <p className='section__description'>CÔNG TY CỔ PHẦN CÔNG NGHỆ VINORSOFT</p>
+      <div className="about__item">
       <div className='about__container bd-grid'>
         <div className='about__data'>
           <p className='about__description'>
@@ -46,14 +47,13 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='about__img'>
-          <Image src={about3} alt='' />
+        <div className='about__img' style={{width: '200%'}}>
+          <Image src={about3} alt=''/>
         </div>
       </div>
-
       <div className='about__container bd-grid'>
         <div className='about__data'>
-          <h2 className='section-title-center'>Tầm nhìn</h2>
+          <h2 className='about__title'>Tầm nhìn</h2>
           <p className='about__description'>
             Trở thành một Đối tác tin cậy của tất cả các doanh nghiệp/tổ chức
             trong việc Cung cấp các dịch vụ liên quan tới Sản xuất Phần mềm và
@@ -65,14 +65,13 @@ const About = () => {
             nhân, gắn liền lợi ích của Công ty với lợi ích của Khách hàng.
           </p>
         </div>
-        <div className='about__img'>
+        <div className='about__img' style={{order: -1, width: '200%'}}>
           <Image src={about1} alt='' />
         </div>
       </div>
-
       <div className='about__container bd-grid'>
         <div className='about__data'>
-          <h2 className='abouton-title-center'>Sứ mệnh</h2>
+          <h2 className='about__title'>Sứ mệnh</h2>
           <p className='about__description'>
             Phát triển các Giải pháp Phần mềm tổng thể giúp cho công việc kinh
             doanh của mọi Doanh nghiệp, cá nhân trở nên Dễ dàng và Hiệu quả hơn.
@@ -86,9 +85,10 @@ const About = () => {
             hành của các Doanh nghiệp tiến tới nền công nghiệp 4.0
           </p>
         </div>
-        <div className='about__img'>
+        <div className='about__img' style={{ width: '80%'}}>
           <Image src={about2} alt='' />
         </div>
+      </div>
       </div>
     </section>
   );
