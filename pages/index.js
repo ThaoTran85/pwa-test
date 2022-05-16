@@ -27,8 +27,6 @@ export default function Home() {
           <Intro />
           <About />
           <Products />
-          <Profile />
-          <Teams />
           <Contact />
           <Map />
           <Send />

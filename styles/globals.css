@@ -470,11 +470,22 @@ img {
   box-shadow: 0 5px 10px rgba(42, 68, 237, 0.1);
 }
 .teams__image {
-  width: 100px;
-  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+}
+
+.teams__image-content{
+  width: 100% ;
+  height: 100% ;
+  object-fit: cover ;
+  border-radius: 50%;
+  display: block;
 }
 
 .teams__info {
@@ -544,12 +555,16 @@ form button {
 }
 /* ========== SEND GIFT ========== */
 .send {
-  background-color: var(--first-color-send);
+  margin-bottom: 20px;
 }
-
+.send__container {
+  border: 1px solid hsla(211, 100%,30%, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: space-evenly;
+}
 .send__title,
 .send__description {
-  color: #fff;
 }
 
 .send__description {
@@ -567,10 +582,16 @@ form button {
   display: flex;
   gap: 10px;
 }
+.send__form button {
+  border: 1px solid #00428a;
+  background-color: transparent;
+  color: #00428a;
+}
 .send__input {
   width: 90%;
   outline: none;
-  border: none;
+  border: 1px solid #00428a;
+  border-radius: 3px;
   font-size: var(--normal-font-size);
   font-family: var(--body-font);
 }
@@ -580,7 +601,7 @@ form button {
 }
 
 .send__img {
-  width: 50%;
+  width: 30%;
   justify-self: center;
 }
 

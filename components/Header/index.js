@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className='l-header' id='header'>
       <nav className='nav bd-container'>
-        <a className='nav__logo'>VinoSoft</a>
+        <a className='nav__logo'>VinorSoft</a>
         <div className='nav__menu'>
           <ul className='nav__list'>
             <li className='nav__item'>

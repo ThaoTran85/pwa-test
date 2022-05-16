@@ -4,7 +4,7 @@ import about from "../../public/assets/img/intro-img.svg";
 import bg from '../../public/assets/img/intro-bg.png'
 const Intro = () => {
   return (
-    <section className='home' id='home' style={{backgroundImage: `url(http://vinorsoft.com/img/intro-bg.png)`}}>
+    <section className='home' id='home' style={{backgroundColor: '#004a99'}}>
       <div className='home__container bd-container bd-grid'>
         <div className='home__img'>
           <Image src={about} alt='' />

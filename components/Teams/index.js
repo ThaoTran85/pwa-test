@@ -1,6 +1,11 @@
 import Image from "next/image";
 import React from "react";
-
+import CTc from '../../public/assets/img/CTC.jpg'
+import leduyan from '../../public/assets/img/leduyan.jpg'
+import lexuanvuong from '../../public/assets/img/lexuanvuong.jpg'
+import nguyenvanhau from '../../public/assets/img/nguyenvanhau.jpg'
+import phandieuhuong from '../../public/assets/img/phandieuhuong.jpg'
+import tranthanhho from '../../public/assets/img/tranthanhho.jpg'
 const Teams = () => {
   return (
     <section className='teams section bd-container' id='teams'>
@@ -12,7 +17,7 @@ const Teams = () => {
       <div className='teams__container bd-grid'>
         <div className='teams__data'>
           <div className="teams__image">
-          {/* <Image src='' alt='' /> */}
+          <Image src={CTc} alt=''  className='teams__image-content' />
           </div>
           <div className="teams__info">
           <h3>Cù chung</h3>
@@ -25,72 +30,13 @@ const Teams = () => {
           </div>
           </div>
         </div>
+     
         <div className='teams__data'>
           <div className="teams__image">
-          {/* <Image src='' alt='' /> */}
+          <img className='teams__image-content' src='../../assets/img/tranthanhho.jpg' alt=''/>
           </div>
           <div className="teams__info">
-          <h3>Cù chung</h3>
-          <p>Giám đốc</p>
-          <div className="teams__socials">
-            <a>Facebook</a>
-            <a>Twitter</a>
-            <a>Gmail</a>
-            <a>Linkedin</a>
-          </div>
-          </div>
-        </div>
-        <div className='teams__data'>
-          <div className="teams__image">
-          {/* <Image src='' alt='' /> */}
-          </div>
-          <div className="teams__info">
-          <h3>Cù chung</h3>
-          <p>Giám đốc</p>
-          <div className="teams__socials">
-            <a>Facebook</a>
-            <a>Twitter</a>
-            <a>Gmail</a>
-            <a>Linkedin</a>
-          </div>
-          </div>
-        </div>
-        <div className='teams__data'>
-          <div className="teams__image">
-          {/* <Image src='' alt='' /> */}
-          </div>
-          <div className="teams__info">
-          <h3>Cù chung</h3>
-          <p>Giám đốc</p>
-          <div className="teams__socials">
-            <a>Facebook</a>
-            <a>Twitter</a>
-            <a>Gmail</a>
-            <a>Linkedin</a>
-          </div>
-          </div>
-        </div>
-        <div className='teams__data'>
-          <div className="teams__image">
-          {/* <Image src='' alt='' /> */}
-          </div>
-          <div className="teams__info">
-          <h3>Cù chung</h3>
-          <p>Giám đốc</p>
-          <div className="teams__socials">
-            <a>Facebook</a>
-            <a>Twitter</a>
-            <a>Gmail</a>
-            <a>Linkedin</a>
-          </div>
-          </div>
-        </div>
-        <div className='teams__data'>
-          <div className="teams__image">
-          {/* <Image src='' alt='' /> */}
-          </div>
-          <div className="teams__info">
-          <h3>Cù chung</h3>
+          <h3>Trần Thanh Hổ</h3>
           <p>Giám đốc</p>
           <div className="teams__socials">
             <a>Facebook</a>
