@@ -1,5 +1,6 @@
+import Image from "next/image";
 import React from "react";
-
+import products from "../../public/assets/img/products.png";
 const Products = () => {
   return (
     <section className='products section bd-container' id='product'>
@@ -10,6 +11,9 @@ const Products = () => {
       </p>
 
       <div className='products__container bd-grid'>
+        <Image src={products} alt='' width='1200px' height='800px' />
+      </div>
+      {/* <div className='products__container bd-grid'>
         <div className='products__content'>
           <div className='product__img'>
             <ion-icon name='card'></ion-icon>
@@ -69,7 +73,7 @@ const Products = () => {
             Các giải pháp trưng bày kiosk, cung cấp phần mềm và phần cứng
           </p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

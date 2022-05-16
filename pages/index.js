@@ -11,6 +11,7 @@ import Contact from "../components/Contact";
 import Map from "../components/Map";
 import Send from "../components/Send";
 import styles from "../styles/Home.module.css";
+import Customer from "../components/Customer";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
           <Intro />
           <About />
           <Products />
+          <Profile />
+          <Customer />
           <Contact />
           <Map />
           <Send />
