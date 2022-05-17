@@ -12,6 +12,8 @@ import Map from "../components/Map";
 import Send from "../components/Send";
 import styles from "../styles/Home.module.css";
 import Customer from "../components/Customer";
+import Slides from "../components/Slides";
+import Slides2 from "../components/Slides2";
 
 export default function Home() {
   return (
@@ -23,7 +25,7 @@ export default function Home() {
       </Head>
       <body>
         <Header />
-
+        <Slides />
         <main className='l-main'>
           <Intro />
           <About />
@@ -34,6 +36,7 @@ export default function Home() {
           <Map />
           <Send />
         </main>
+        <Slides2 />
         <a href='#' className='scrolltop' id='scroll-top'>
           <i className='bx bx-up-arrow-alt scrolltop__icon'></i>
         </a>
